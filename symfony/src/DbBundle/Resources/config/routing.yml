@@ -1,0 +1,7 @@
+db_homepage:
+    path:     /
+    defaults: { _controller: DbBundle:Default:index }
+
+db_home:
+    path: /db
+    defaults: { _controller: DbBundle:Index:index }
